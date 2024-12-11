@@ -1,0 +1,69 @@
+body{
+    background-image: url(images/bg-desktop.png);
+    background-position:center;
+    background-repeat:repeat-y;
+    background: size 300%;
+}
+main{
+   display: flex;
+}
+.Fylo img{
+    float: left;
+}
+.Fylo{
+    align-items:center ;
+    margin-left: 100px;
+    border: transparent;
+    border-radius: 10px;
+    background-color:  hsl(228, 56%, 26%);
+    width: 20%;
+    color: aliceblue;
+    margin-top: 200px;
+}
+.icon-document{
+    border: transparent;
+    border-radius: 10px ;
+    background-color: hsl(243, 72%, 81%);
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline-flex;
+    height: 15px;
+}
+.icon-folder{
+    border: transparent;
+    border-radius: 10px ;
+    background-color: hsl(243, 100%, 93%);
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline-flex;
+    height: 15px;
+}
+.icon-upload{
+    border: transparent;
+    border-radius: 10px ;
+    background-color: hsl(243, 100%, 93%);
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline-flex;
+    height: 15px;
+}
+.storage{
+    align-items:center ;
+    margin-left: 10px;
+    border: transparent;
+    border-radius: 10px;
+    background-color:  hsl(228, 56%, 26%);
+    width: 25%;
+    color: aliceblue;
+    margin-top: 200px;
+}
+.storage .GB {
+    border: transparent;
+    border-radius: 10px;
+    height: 10px;
+    width: 300px;
+    background-color: black;
+}
